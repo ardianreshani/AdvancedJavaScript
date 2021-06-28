@@ -7,6 +7,25 @@
     <title>AdvancedJavaScript</title>
   </head>
   <body>
-    <script src="./object-getters-setters.js"></script>
+    <div id="grand-parent">
+      grand-parent
+      <div>
+        Parent 1
+        <div>Child 1</div>
+        <div>Child 2</div>
+      </div>
+      <div>Parent 2</div>
+    </div>
+    <div class="grand-parent">
+      grand-parent
+      <div>
+        Parent 1
+        <div id="first-child">Child 1</div>
+        <div>Child 2</div>
+      </div>
+      <div>Parent 2</div>
+    </div>
+
+    <script src="./Parent.js"></script>
   </body>
 </html>
